@@ -1,0 +1,57 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.navbar{
+    height:5rem;
+}
+.fa-compass{
+    font-size:2rem;
+    color:#fe424d;
+}
+.nav-link{
+    color: #222222 !important;  /*specifying important inorder to override the stylings of the bootstrap */
+}
+
+/* footer */
+.f-info{
+    height: 8rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    text-align: center;
+}
+.f-info-socials{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.f-info-links{
+    width: 100%;
+}
+.f-info-links a{
+    text-decoration: none;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+/* cards */
+.card{
+    border: none;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+}
+.card-body{
+    padding: 0;
+}
+.card-text p{
+    font-weight: 400;
+}
+.row a{
+    text-decoration: none;
+}
